@@ -1,0 +1,155 @@
+:root{
+	--blanco: #f1f2f6;
+	--coral: #99ffcc;
+	--rosa: #ff9999;
+	--negro: #1e272e;
+}
+
+@media screen and (max-width: 900px){
+	header{
+		background-position: center;
+	}
+	header .headerTexto{
+		width: 60%;
+	}
+	header .headerTexto h1{
+		font-size: 60px;
+	}
+	header nav .menu{
+		position: absolute;
+		top: 60px;
+		left: -100%;
+		width: 100%;
+		height: 400px;
+		background: var(--coral);
+	}
+	header nav .menu .lista{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	header nav .menu .lista li{
+		width: 70%;
+		margin: 10px 0;
+		padding: 10px 0;
+		text-align: center;
+	}
+	header nav .menu .lista li a{
+		font-size: 25px;
+	}
+	.burger > .fa-bars{
+		display: block;
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		font-size: 35px;
+		cursor: pointer;
+		color: var(--negro);
+	}
+	.burguer > .fa-bars:hover{
+		color: var(--negro);
+	}
+	.about .aboutContenedor{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.about .aboutContenedor img{
+		width: 300px;
+	}
+	.about .aboutContenedor .aboutTexto{
+		width: 90%;
+	}
+	.about .aboutContenedor .aboutTexto p{
+		text-align: center;
+	}
+	.servicios .serviciosGaleria .servicioImg{
+		width: 45%;
+	}
+	.servicios .serviciosGaleria .servicioImg:last-child{
+		margin-top: 20px;
+	}
+	.talleres .talleresGrupo{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.talleres .talleresGrupo .taller{
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+	}
+	.talleres .talleresGrupo .taller img{
+		width: 30%;
+	}
+	.talleres .talleresGrupo .taller p{
+		max-width: 80%;
+		text-align: center;
+		margin-left: 10%;
+	}
+	.contacto .contactoContenedor{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width:  500px){
+	header .headerTexto h1{
+		font-size: 40px;
+	}
+	header .headerTexto{
+		width: 100%;
+	}
+	header .headerTexto h1{
+		text-align: center;
+		animation: none;
+	}
+	.about .aboutContenedor img{
+		width: 250px;
+	}
+	.servicios .serviciosGaleria .servicioImg{
+		width: 90%;
+	}
+	.servicios .serviciosGaleria .servicioImg:last-child{
+		margin: 0;
+	}
+	.news .newsForm{
+		max-width: 90%;
+	}
+	.talleres .talleresGrupo .taller{
+		width: 85%;
+	}
+	.talleres .talleresGrupo .taller img{
+		width: 80%;
+	}
+	.talleres .talleresGrupo .taller:last-child{
+		margin-bottom: 0;
+	}
+	.contacto .contactoContenedor{
+		width: 90%;
+	}
+	.contacto .contactoContenedor .formulario input{
+		width: 90%;
+	}
+	.contacto .contactoContenedor .formulario textarea{
+		width: 90%;
+	}
+	footer .footerContenedor{
+		flex-direction: column;
+	}
+	footer .footerContenedor .footerDatos{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	footer .footerContenedor .footerDatos h3{
+		border: none;
+	}
+	footer .footerContenedor .footerDatos p{
+		padding-bottom: 20px;
+	}
+	footer .copy{
+		font-size: 20px;
+	}
+}

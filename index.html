@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi Enfermera</title>
+
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/responsivo.css">
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="icono.png" type="image/x-icon">
+
+
+	<!-- FUENTES -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<!--Animaciones-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<!-- PRELOADER -->
+	<div class="loading" id="loading">
+		<div class="lds-dual-ring"></div>
+	</div>
+
+	<header>
+		<nav>
+			<div class="logo">
+				<h1>
+					<a href="#"><img src="img/home.png" alt=""></a>
+					<span class="burger"><i class="fas fa-bars"></i></span>
+				</h1>
+			</div>
+
+			<div class="menu">
+				<ul class="lista">
+					<li><a href="#about">Conócenos</a></li>
+					<li><a href="#servicios">Servicios</a></li>
+					<li><a href="#talleres">Talleres</a></li>
+					<li><a href="#contacto">Contácto</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="headerTexto">
+			<h1>Mi Enfermera</h1>
+		</div>
+
+		<!-- WAVE -->
+		<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#f1f2f6;"></path></svg></div>
+
+		<div id="about"></div>
+	</header>
+
+<main>
+	<!-- ABOUT -->
+	<section class="about">
+		<h2 class="titulo" data-aos="fade-down" data-aos-duration="1000">Equipo Humano</h2>
+
+		<div class="aboutContenedor">
+			<img src="img/bienvenida.jpg" alt="" data-aos="fade-right" data-aos-duration="1000">
+			<div class="aboutTexto" data-aos="fade-left" data-aos-duration="1000">
+				<p>Mi Enfermera cuenta con personal altamente calificado, caracterizado por la orientación al servicio, trabajo en equipo y comunicación efectiva, dispuesto a aprender y dar lo mejor de sí durante su quehacer diario.
+				<br><br>
+				<a href="#contacto"><b>Acercate a Nosotros</b></a></p>
+			</div>
+	    </div>
+	    <div id="servicios"></div>
+	</section>
+
+	<!-- SERVICIOS -->
+	<section class="servicios">
+		<div class="serviciosContenedor">
+			<h2 class="titulo">Servicios</h2>
+
+			<div class="serviciosGaleria" data-aos="fade-up" data-aos-duration="1000">
+				<!-- SERVICIO 1 -->
+				<div class="servicioImg">
+					<img src="img/servicios/01.jpg" alt="">
+					<div class="hover">
+						<img src="img/servicios/icono01.png" alt="">
+						<p>Vacunación</p>
+					</div>
+				</div>
+
+				<!-- SERVICIO 2 -->
+				<div class="servicioImg">
+					<img src="img/servicios/02.jpg" alt="">
+					<div class="hover">
+						<img src="img/servicios/icono02.png" alt="">
+						<p>Preparación para cirugias</p>
+					</div>
+				</div>
+
+				<!-- SERVICIO 2 -->
+				<div class="servicioImg">
+					<img src="img/servicios/03.jpg" alt="">
+					<div class="hover">
+						<img src="img/servicios/icono03.png" alt="">
+						<p>Pediatria</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- NEWSLETTER -->
+	<section class="news">
+		<h3>Suscribete para recivibir avisos y recomendaciones de salud</h3>
+
+		<!-- FORMULARIO -->
+		<div class="newsForm">
+			<input type="email" placeholder="Ingresa tu Correo Electrónico">
+			<input type="submit" value="Suscribete" id="alerta">
+		</div>
+		<div id="talleres"></div>
+	</section>
+
+	<!-- TALLERES -->
+	<section class="talleres">
+		<div class="talleresContenedor">
+			<h2 class="titulo">Talleres</h2>
+
+			<div class="talleresGrupo" data-aos="fade-up" data-aos-duration="1000">
+				<!-- TALLER 1 -->
+				<div class="taller">
+					<img src="img/talleres/01.png" alt="">
+					<h3>Primeros Auxilios</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptatibus, quo numquam alias! Doloribus obcaecati asperiores laudantium, libero nesciunt pariatur sapiente. Iure explicabo facere fuga voluptates distinctio totam repudiandae suscipit.</p>
+				</div>
+
+				<!-- TALLER 2 -->
+				<div class="taller">
+					<img src="img/talleres/02.png" alt="">
+					<h3>Prevención COVID</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptatibus, quo numquam alias! Doloribus obcaecati asperiores laudantium, libero nesciunt pariatur sapiente. Iure explicabo facere fuga voluptates distinctio totam repudiandae suscipit.</p>
+				</div>
+
+				<!-- TALLER 3 -->
+				<div class="taller">
+					<img src="img/talleres/03.png" alt="">
+					<h3>Correcto tratamiento de Heridas</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptatibus, quo numquam alias! Doloribus obcaecati asperiores laudantium, libero nesciunt pariatur sapiente. Iure explicabo facere fuga voluptates distinctio totam repudiandae suscipit.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CONTACTO -->
+	<section class="contacto" id="contacto">
+		<h2 class="titulo">Contactanos</h2>
+
+		<!-- FORMULARIO -->
+		<div class="contactoContenedor" data-aos="zoom-in" data-aos-duration="1000">
+			<div class="formulario" >
+				<label for="user">Nombre</label>
+				<input type="text" id="user" name="user" placeholder="Ingresa tu nombre">
+
+				<label for="email">Correo Electrónico</label>
+				<input type="email" id="email" name="email" placeholder="Ingresa tu Correo Electrónico">
+
+				<label for="tel">Teléfono de Contacto</label>
+				<input type="tel" id="tel" name="tel" placeholder="Ingresa tu Teléfono">
+
+				<label for="mensaje">Dejano un Mensaje</label>
+				<textarea name="mensaje" id="mensaje"></textarea>
+
+				<div class="enviar">
+					<button id="alerta2">Enviar</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="footerContenedor">
+			<!-- Dato 1 -->
+			<div class="footerDatos">
+				<h3>Teléfono</h3>
+				<p>5555-5555</p>
+			</div>
+
+			<!-- DATO 2 -->
+			<div class="footerDatos">
+				<h3>E-mail</h3>
+				<p>contacto@mienfermera.com</p>
+			</div>
+
+			<!-- DATO 3 -->
+			<div class="footerDatos">
+				<h3>Ubicación</h3>
+				<p>Localización</p>
+			</div>
+		</div>
+
+		<h2 class="copy">&copy;Mi Enfermera 2021</h2>
+	</footer>
+
+	
+
+	<!--HOME-->
+	<div class="home">
+		<i class="fas fa-long-arrow-alt-up"></i>
+	</div>
+	
+</main>	
+	
+
+
+<!--SCRIPTS-->
+<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
+<script src="js/home.js"></script>
+<script src="js/activo.js"></script>
+<script src="js/loading.js"></script>
+<script src="js/alerta.js"></script>
+<script src="js/menu.js"></script>
+<!--Animaciones-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>
